@@ -20,13 +20,17 @@ body{
     -webkit-text-fill-color: transparent;
 }
 
-.spotify,.cloud,.music,.cassette{
-    transition: all 0.5s;
-    
-    cursor: pointer;
-    
+.spotify,.music, .cloud, .cassette{
+    font-size: 25px;
+    color: azure;
+    transition: all 0.3s;
 }
 
-.spotify:hover,.cloud:hover,.music:hover,.cassette:hover{
-        color: #D6135E;
+.spotify:hover,.music:hover, .cloud:hover, .cassette:hover{
+    transform: translateY(-15px);
+    color: #D6135E;
 }
+
+
+
+
