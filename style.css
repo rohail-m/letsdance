@@ -8,6 +8,8 @@ body{
 :root{
     --firstcontainer:#0E0837;
     --welcome:#D6135E;
+    --buttons2page:#BB2D3B;
+    --secondpagecard:#100726;
 }
 
 .mainpage{
@@ -31,6 +33,23 @@ body{
     color: #D6135E;
 }
 
+.second-page{
+    margin: 20% auto;
+}
 
+.secondpageimage{
+    background-image: linear-gradient(#D6135E,#47070e);
+}
 
+.imgbackground, .imgg, .journey, .album{
+    transition: all 1s;
+}
 
+.imgbackground:hover, .imgg:hover{
+   transform: translate(90px,-90px);
+   border-radius: 50%;
+}
+
+.journey:hover, .album:hover{
+    transform: translateY(-20px);
+}
