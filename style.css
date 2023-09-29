@@ -50,3 +50,23 @@ body{
    border-radius: 50%;
 }
 
+.videoimg{
+    position: relative;
+}
+.play{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);    
+}
+
+/* .track-list{
+    background-image: url('https://demo.moxcreative.com/beatkit/wp-content/up…ic-festivals-edm-future-house-music-and-so-on.jpg');
+    background-position: center;
+} */
+
+
+.start1-background,.start2-background,.start3-background,.start4-background,.start5-background,.start6-background{
+    background: linear-gradient(to right,#7e1f73,#140A2F);
+}
+
