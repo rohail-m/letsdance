@@ -70,3 +70,16 @@ body{
     background: linear-gradient(to right,#7e1f73,#140A2F);
 }
 
+.start1-front{
+    transition: all 1s ease 0s;
+}
+
+.start1-front:hover{
+    scale: 1.3;
+    background: linear-gradient(to left,#7e1f73,#140A2F);
+}
+
+.backgroudlist2{
+    background: linear-gradient(#140A2F,#7e1f73);
+    margin-top: 50%;
+}
